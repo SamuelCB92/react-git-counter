@@ -7,9 +7,10 @@ export default function App() {
 
   const increment = () => setCount(count + 1);
   const decrement = () => setCount(count - 1);
+  const reset = () => setCount(count * 0);
   return (
     <div className="App">
-      <Counter count={count} onIncrement={increment} onDecrement={decrement} />
+      <Counter count={count} onIncrement={increment} onDecrement={decrement} onReset={reset} />
     </div>
   );
 }
