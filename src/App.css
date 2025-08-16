@@ -84,11 +84,11 @@
 
 .history-list {
   list-style: none;
-  padding: 0;
+  padding: 0 5px 0 0; /* Add right padding */
   margin: 0;
   max-height: 200px;
   overflow-y: auto;
-  overflow-x: hidden;  /* Add this line */
+  overflow-x: hidden;
 }
 
 
